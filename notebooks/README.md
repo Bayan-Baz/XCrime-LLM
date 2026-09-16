@@ -1,3 +1,3 @@
 # Notebooks
 
-This directory contains the Jupyter notebooks used to reproduce the XCrime-LLM preprocessing, feature engineering, training, and evaluation workflow.
+This directory contains the Jupyter notebooks used to reproduce the New York City preprocessing and feature-engineering pipeline for XCrime-LLM.
