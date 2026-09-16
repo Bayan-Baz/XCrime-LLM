@@ -1,19 +1,30 @@
 # XCrime-LLM
 
-Official implementation of **XCrime-LLM: An Explainable Spatio-Temporal Crime Prediction Framework**
+Official implementation of **XCrime-LLM: An Explainable Spatio-Temporal Crime Prediction Framework**.
+
+XCrime-LLM is an explainable large language model (LLM)-based framework for **spatio-temporal crime prediction**. It combines engineered spatio-temporal features, schema-guided prompting, supervised fine-tuning, structured multi-label prediction, and **KernelSHAP-based explainability** for region-level crime occurrence prediction.
+
+This repository provides the New York City (NYC) preprocessing, feature-engineering, fine-tuning data preparation, test inference and evaluation, and SHAP explainability workflow used for XCrime-LLM.
 
 ## 📄 Paper
 
-**XCrime-LLM: An Explainable Spatio-Temporal Crime Prediction Framework**  
+**B. Baz, A. Attiah, A. Hakeem, and N. M. Almani,  
+“XCrime-LLM: An Explainable Spatio-Temporal Crime Prediction Framework,”**  
 *Computers*, 2026, 15(5), 325.
 
 🔗 [Read the published paper](https://doi.org/10.3390/computers15050325)
 
 ## Overview
 
-XCrime-LLM is an explainable large language model-based framework for spatio-temporal crime prediction. It combines engineered spatio-temporal features, schema-guided prompting, supervised fine-tuning, and explainability to support region-level crime prediction.
+XCrime-LLM predicts whether each of four felony categories—Burglary, Robbery, Grand Larceny, and Felony Assault—will occur within the next seven days for a given spatial region.
 
-The framework predicts whether each of four felony categories—Burglary, Robbery, Grand Larceny, and Felony Assault—will occur within the next seven days for a given spatial region.
+The framework combines:
+
+- spatio-temporal feature engineering
+- schema-guided prompting
+- supervised fine-tuning
+- structured multi-label crime occurrence prediction
+- KernelSHAP-based feature attribution
 
 ## Features
 
